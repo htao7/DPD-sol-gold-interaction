@@ -1,0 +1,54 @@
+ 
+Temperature k_BT
+1.0e0
+
+Rc(Particle-Particle) Rc(Particle-Bead) Rc(Bead-Bead)
+2.0e0 1.5e0 1.5e0 1.5e0
+1.5e0 1.0e0 1.0e0 1.0e0
+1.5e0 1.0e0 1.0e0 1.0e0
+1.5e0 1.0e0 1.0e0 1.0e0
+
+rsphere/Rc
+3.0e0
+
+System size(Lx, Ly, Lz)
+20.0e0 20.0e0 20.0e0
+
+rho/Rc^3
+3.0e0
+
+ABP concentration
+0.1
+
+Number of the chain 
+3
+
+Number of the hydrophobic & hydrophilic beads of each chain
+3 1
+
+m(P)  m(B)  m(A)  m(S)
+8.0e0 1.0e0 1.0e0 1.0e0
+
+r(P-B) r(B-B) r(B-A) r(A-A)
+1.29e0 0.86e0 0.86e0 0.86e0
+
+time step (dt)
+0.03e0
+
+parameters of aij
+25.0e0 25.0e0 25.0e0 150.0e0
+25.0e0 25.0e0 50.0e0 75.0e0
+25.0e0 50.0e0 25.0e0 25.0e0
+150.0e0 75.0e0 25.0e0 25.0e0
+
+parameters of sigma
+3.0e0
+
+parameters of k_FENE & R0/Rc
+30.0e0 1.5e0
+
+parameters of lambda
+0.65e0
+
+total time, snapshot
+10000 10000
